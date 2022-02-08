@@ -14,7 +14,7 @@ import { ProductModule } from './product/product.module';
       username: 'root',
       password: 'Farfetch2021',
       database: 'nest_repo_db',
-      entities: [join(__dirname, '**', '*.entity.{ts, js}')],
+      entities: [join(__dirname, '**', '*.entity.{ts,js}')],
       synchronize: true,
     }),
     ProductModule,
